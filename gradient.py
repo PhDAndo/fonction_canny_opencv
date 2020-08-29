@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 stop = 0
-cap = cv2.VideoCapture("tour auto.mp4")
+cap = cv2.VideoCapture("video_test.mp4")
 while True:
     if not stop:
         ret, frame = cap.read()

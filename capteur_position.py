@@ -34,7 +34,7 @@ th1 = 75
 th2 = 150
 stop = 0
 k = 1
-cap = cv2.VideoCapture("tour auto.mp4")
+cap = cv2.VideoCapture("video_test.mp4")
 while True:
     if not stop:
         ret, frame = cap.read()
